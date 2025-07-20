@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans Thai Looped", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header_top_inner{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #5FC5A0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #040548;
+    font-size: 16px;
+}
+
+.header_top{
+    background-color: #5FC5A0;
+        padding: 18px 0
+}
+
+.menu_list{
+    display: flex;
+    gap: 45px;
+}
+
+.menu_list_link{
+    color: #040548;
+    font-size: 16px;
+    transition: all 0.3s
+}
+
+.menu_list_link:hover{
+    border-bottom: 1px solid #FF972D;
+}
+
+.translate_EN{
+    color: #040548;
+    font-size: 20px;
+}
+
+.translate_UA{
+    color: #04054879;
+    font-size: 20px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.phone_link{
+    color: #040548;
+    font-size: 20px;
+}
+
+.phone_img{
+    width: 25px;
+    height: 25px;
+    color: #040548;
+}
+.menu_list-item,
+.logo{
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: 0,2px;
+}
+
+.translate_EN,
+.translate_UA,
+.phone_link,
+.translate-slash{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    transition: all 0.3s
+}
+
+.translate_EN:hover,
+.translate_UA:hover,
+.phone_link:hover{
+    border-bottom: 1px solid #FF972D;
+}
