@@ -113,7 +113,7 @@ letter-spacing: 0,2px;
     font-size: 32px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     justify-content: center;
-    padding: 7px;
+    padding: 7px 7px 7px 7px;
 
 }
 .button_2{
@@ -125,7 +125,7 @@ letter-spacing: 0,2px;
     border: none; 
     font-size: 32px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
-    padding: 7px;
+    padding: 7px 7px 7px 7px;
 }
 .button_class{
     display: flex;
