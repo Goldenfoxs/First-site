@@ -164,17 +164,18 @@ position: relative;
 }
                 
 
-/* .button_1{
+ .button-orange{
+    display: flex;
     color: white;
     background-color: #FF972D;
     width: 291px;
     height: 66px;
     border-radius: 50px;
-    border: none;
     font-size: 32px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     justify-content: center;
-    padding: 7px 7px 7px 7px;
+    padding: 14px 7px 7px 7px;
+    
 
 }
 .button_2{
@@ -194,4 +195,4 @@ position: relative;
 .arrow{
     width: 21px;
     height: 28px;
-} */
+}
