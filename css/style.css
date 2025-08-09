@@ -22,6 +22,12 @@ a{
     margin: 0 auto;
     padding: 0 10px;
 }
+
+.title{
+    font-size: 44px;
+    font-weight: 800;
+}
+
 .header_top_inner{
     display: flex;
     justify-content:space-between ;
@@ -162,12 +168,9 @@ position: relative;
     height: 28px;
     transform: translateY(-50%);
 }
-                
 
- .button-orange{
+.button{
     display: flex;
-    color: white;
-    background-color: #FF972D;
     width: 291px;
     height: 66px;
     border-radius: 50px;
@@ -175,19 +178,26 @@ position: relative;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     justify-content: center;
     padding: 14px 7px 7px 7px;
-    
+    text-transform: uppercase;
+    font-weight: 700;
+}            
 
+ .button-orange{
+    background-color: #FF972D;
 }
-.button_2{
+.header-image{
+    padding: 0px 0px 100px;
+}
+
+ .button_green{ 
     color: white;
     background-color: #5FC5A0;
-    width: 291px;
-    height: 66px;
-    border-radius: 50px;
-    border: none; 
+    /* width: 291px;
+    height: 66px; */
+    /* border-radius: 50px;
     font-size: 32px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
-    padding: 7px 7px 7px 7px;
+    padding: 7px 7px 7px 7px; */
 }
 .button_class{
     display: flex;
@@ -195,4 +205,164 @@ position: relative;
 .arrow{
     width: 21px;
     height: 28px;
+}
+
+.about{
+
+}
+
+.about__all{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__left{
+    max-width: 726px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__title{
+    font-size: 44px;
+    font-weight: bold;
+    font-family:  "Noto Sans Thai Looped", sans-serif;
+    text-decoration: underline orange;
+}
+
+.about_offer-title{
+    font-size: 32px;
+    font-weight: bold;
+    font-family:  "Noto Sans Thai Looped", sans-serif; 
+    color: #FF972D;
+}
+
+.about__subtitle{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.about__subtititle-IT{
+    color: #FF972D;
+}
+.about__subtititle-English{
+    color: #5FC5A0;
+}
+
+.about__left-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about__offer-items{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.offer__item-title_1{
+padding-left: 80px;
+font-size: 24px;
+}
+
+.offer__item-text_1{
+max-width: 243px;
+padding-left: 80px;
+font-size: 15px;
+}
+
+.offer__item-title_1::before{
+    content: "";
+    background-image: url(../images/Flexible\ Schedule.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0%;
+    width: 56px;
+    height: 50px;
+}
+
+.offer__item-title_2{
+padding-left: 80px;
+font-size: 24px;
+}
+
+.offer__item-text_2{
+max-width: 313px;
+padding-left: 80px;
+padding-bottom: 100px ;
+font-size: 15px;
+}
+
+.offer__item-title_2::before{
+    content: "";
+    background-image: url(../images/Real\ communication.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 58%;
+}
+
+.offer__item-title_3{
+padding-left: 80px;
+font-size: 24px;
+}
+
+.offer__item-text_3{
+max-width: 300px;
+padding-left: 80px;
+font-size: 15px;
+}
+
+.offer__item-title_3::before{
+    content: "";
+    background-image: url(../images/Experienced\ Teachers.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 57px;
+    height: 50px;
+    left: 0%;
+}
+
+.offer__item-title_4{
+padding-left: 80px;
+font-size: 24px;
+}
+
+
+.offer__item-text_4{
+max-width: 313px;
+padding-left: 80px;
+font-size: 15px;
+}
+
+.offer__item-title_4::before{
+    content: "";
+    background-image: url(../images/Online\ &\ Offline.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 55px;
+    height: 51px;
+    left:  58%;
+}
+
+
+.about__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.about__right-text{
+    font-size: 24px;
+    max-width: 530px;
+    margin-bottom: 34px;
 }
