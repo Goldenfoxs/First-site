@@ -192,6 +192,7 @@ position: relative;
  .button_green{ 
     color: white;
     background-color: #5FC5A0;
+    margin-bottom: 40px;
     /* width: 291px;
     height: 66px; */
     /* border-radius: 50px;
@@ -205,10 +206,6 @@ position: relative;
 .arrow{
     width: 21px;
     height: 28px;
-}
-
-.about{
-
 }
 
 .about__all{
@@ -228,6 +225,7 @@ position: relative;
     font-weight: bold;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     text-decoration: underline orange;
+    padding-bottom: 40px;
 }
 
 .about_offer-title{
@@ -240,6 +238,7 @@ position: relative;
 .about__subtitle{
     font-weight: bold;
     font-size: 32px;
+    padding-bottom: 15px;
 }
 
 .about__subtititle-IT{
@@ -252,6 +251,7 @@ position: relative;
 .about__left-text{
     font-size: 18px;
     font-weight: bold;
+    padding-bottom: 60px;
 }
 
 .about__offer-items{
@@ -261,6 +261,10 @@ position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+}
+
+.offer__item{
+    margin-bottom: 50px;
 }
 
 .offer__item-title_1{
@@ -293,11 +297,15 @@ font-size: 24px;
 .offer__item-text_2{
 max-width: 313px;
 padding-left: 80px;
-padding-bottom: 100px ;
+/* padding-bottom: 100px ; */
 font-size: 15px;
 }
 
-.offer__item-title_2::before{
+.offer__item2{
+    position: relative;
+}
+
+.offer__item2::before{
     content: "";
     background-image: url(../images/Real\ communication.png);
     background-repeat: no-repeat;
@@ -305,16 +313,17 @@ font-size: 15px;
     position: absolute;
     width: 51px;
     height: 51px;
-    left: 58%;
+    left: 0;
 }
 
 .offer__item-title_3{
 padding-left: 80px;
 font-size: 24px;
+max-width: 287px;
 }
 
 .offer__item-text_3{
-max-width: 300px;
+max-width: 280px;
 padding-left: 80px;
 font-size: 15px;
 }
@@ -333,16 +342,22 @@ font-size: 15px;
 .offer__item-title_4{
 padding-left: 80px;
 font-size: 24px;
+padding-right: 20px;
 }
 
 
 .offer__item-text_4{
-max-width: 313px;
+max-width: 328px;
 padding-left: 80px;
+padding-right: 15px;
 font-size: 15px;
 }
 
-.offer__item-title_4::before{
+.offer__item4{
+    position: relative;
+}
+
+.offer__item4::before{
     content: "";
     background-image: url(../images/Online\ &\ Offline.png);
     background-repeat: no-repeat;
@@ -350,7 +365,7 @@ font-size: 15px;
     position: absolute;
     width: 55px;
     height: 51px;
-    left:  58%;
+    left: 0;
 }
 
 
@@ -358,6 +373,9 @@ font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-image: url(../images/about-main.png);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 
@@ -365,4 +383,187 @@ font-size: 15px;
     font-size: 24px;
     max-width: 530px;
     margin-bottom: 34px;
+    margin-top: 575px;
+}
+
+.Contact{
+    padding: 50px 0 80px;
+    background-color: #040548;
+    color: #FFFF;
+}
+
+.contact__title{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    text-decoration: underline orange;
+}
+
+.contact__info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__phone{
+    position: relative;
+    padding-left: 40px;
+}
+
+.contact__phone::before{
+    content: "";
+    background-image: url(../images/contact/contact_phone.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.contact__phone__title{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.contact__phone_link{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.contact__details{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+}
+
+.contact__email{
+    position: relative;
+    padding-left: 40px;    
+}
+
+.contact__email::before{
+    content: "";
+    background-image: url(../images/contact/Contact_email.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 34px;
+    height: 28px;
+}
+
+.contact__email__title{
+    font-size: 32px;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    font-weight: bold;
+}
+
+.contact__adress__link{
+    font-size: 20px;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    font-weight: bold;
+    max-width: 296px;
+}
+
+.contact__social{
+    position: relative;
+    padding-left: 40px;    
+}
+
+.contact__social::before{
+    content: "";
+    background-image: url(../images/contact/contact_social.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 37px;
+    height: 37px;
+}
+
+.contact__social__title{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+}
+
+.Instagram{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Facebook{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Telegram{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.conntact__address{
+   position: relative;
+    padding-left: 40px; 
+}
+
+.conntact__address::before{
+    content: "";
+    background-image: url(../images/contact/Contact_adress.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 27px;
+    height: 39px;
+}
+
+.conntact__address__title{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif; 
+}
+
+.contact__adress__text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif;    
+}
+
+.contact__photo__text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    padding-top: 9px; 
+    padding-bottom: 32px; 
+}
+
+.button_contact{
+    background-color: #FF972D;
+    max-width: 436px;
+    height: 66px;;
+    display: flex;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family:  "Noto Sans Thai Looped", sans-serif;
+    justify-content: center;
+    padding: 14px 7px 7px 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 60px;
+}
+
+.button_contact::after{
+    content: "";
+    background-image: url(../images/Arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    right: 24%;
 }
