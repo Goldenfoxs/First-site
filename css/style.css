@@ -464,12 +464,15 @@ line-height: 17px;
     font-size: 32px;
     font-weight: bold;
     font-family: "Noto Sans Thai Looped", sans-serif;
+    margin-bottom: 10px;
 }
 
 .contact__phone_link{
     font-size: 24px;
     font-weight: bold;
     font-family: "Noto Sans Thai Looped", sans-serif;
+    margin-bottom: 4px;
+    line-height: 38px;
 }
 
 .contact__details{
@@ -480,7 +483,7 @@ justify-content: space-evenly;
 
 .contact__email{
     position: relative;
-    padding-left: 40px;    
+    padding-left: 45px;    
 }
 
 .contact__email::before{
@@ -492,12 +495,15 @@ justify-content: space-evenly;
     left: 0;
     width: 34px;
     height: 28px;
+    top: 15px;
 }
 
 .contact__email__title{
     font-size: 32px;
     font-family: "Noto Sans Thai Looped", sans-serif ;
     font-weight: bold;
+    line-height: 51px;
+    margin-bottom: 15px;
 }
 
 .contact__adress__link{
@@ -509,7 +515,7 @@ justify-content: space-evenly;
 
 .contact__social{
     position: relative;
-    padding-left: 40px;    
+    padding-left: 45px;    
 }
 
 .contact__social::before{
@@ -527,24 +533,28 @@ justify-content: space-evenly;
     font-size: 32px;
     font-weight: bold;
     font-family: "Noto Sans Thai Looped", sans-serif ;
+    margin-bottom: 20px;
 }
 
 .Instagram{
     font-size: 20px;
     font-weight: 600;
     font-family: "Noto Sans Thai Looped", sans-serif;
+    line-height: 24px;
 }
 
 .Facebook{
     font-size: 20px;
     font-weight: 600;
     font-family: "Noto Sans Thai Looped", sans-serif;
+    line-height: 24px;
 }
 
 .Telegram{
     font-size: 20px;
     font-weight: 600;
     font-family: "Noto Sans Thai Looped", sans-serif;
+    line-height: 24px;
 }
 
 .conntact__address{
@@ -566,7 +576,9 @@ justify-content: space-evenly;
 .conntact__address__title{
     font-size: 32px;
     font-weight: bold;
-    font-family: "Noto Sans Thai Looped", sans-serif; 
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    margin-bottom: 7px;
+    line-height: 51px; 
 }
 
 .contact__adress__text{
