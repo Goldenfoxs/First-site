@@ -193,6 +193,7 @@ position: relative;
     color: white;
     background-color: #5FC5A0;
     margin-bottom: 40px;
+    position: relative;
     /* width: 291px;
     height: 66px; */
     /* border-radius: 50px;
@@ -200,6 +201,20 @@ position: relative;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     padding: 7px 7px 7px 7px; */
 }
+
+ .button_green::after{
+    content: "";
+    background-image: url(../images/Arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    bottom: 7px;
+    
+}
+
 .button_class{
     display: flex;
 }
@@ -224,8 +239,21 @@ position: relative;
     font-size: 44px;
     font-weight: bold;
     font-family:  "Noto Sans Thai Looped", sans-serif;
-    text-decoration: underline orange;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    position: relative;
+    line-height: 60px;
+}
+
+.about__title::after,
+.contact__title::after{
+    content: "";
+    height: 3px;
+    width: 104px;
+    background-color: #FF972D;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 .about_offer-title{
@@ -252,6 +280,7 @@ position: relative;
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 60px;
+    line-height: 30px;
 }
 
 .about__offer-items{
@@ -270,12 +299,14 @@ position: relative;
 .offer__item-title_1{
 padding-left: 80px;
 font-size: 24px;
+margin-bottom: 10px;
 }
 
 .offer__item-text_1{
 max-width: 243px;
 padding-left: 80px;
 font-size: 15px;
+line-height: 17px;
 }
 
 .offer__item-title_1::before{
@@ -292,6 +323,7 @@ font-size: 15px;
 .offer__item-title_2{
 padding-left: 80px;
 font-size: 24px;
+margin-bottom: 10px;
 }
 
 .offer__item-text_2{
@@ -299,6 +331,7 @@ max-width: 313px;
 padding-left: 80px;
 /* padding-bottom: 100px ; */
 font-size: 15px;
+line-height: 17px;
 }
 
 .offer__item2{
@@ -320,12 +353,14 @@ font-size: 15px;
 padding-left: 80px;
 font-size: 24px;
 max-width: 287px;
+margin-bottom: 10px;
 }
 
 .offer__item-text_3{
 max-width: 280px;
 padding-left: 80px;
 font-size: 15px;
+line-height: 17px;
 }
 
 .offer__item-title_3::before{
@@ -343,6 +378,7 @@ font-size: 15px;
 padding-left: 80px;
 font-size: 24px;
 padding-right: 20px;
+margin-bottom: 10px;
 }
 
 
@@ -351,6 +387,7 @@ max-width: 328px;
 padding-left: 80px;
 padding-right: 15px;
 font-size: 15px;
+line-height: 17px;
 }
 
 .offer__item4{
@@ -380,10 +417,13 @@ font-size: 15px;
 
 
 .about__right-text{
-    font-size: 24px;
+    font-size: 20px;
     max-width: 530px;
     margin-bottom: 34px;
     margin-top: 575px;
+    line-height: 37px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .Contact{
@@ -396,7 +436,8 @@ font-size: 15px;
     font-size: 48px;
     font-weight: bold;
     font-family: "Noto Sans Thai Looped", sans-serif;
-    text-decoration: underline orange;
+    position: relative;
+    line-height: 60px;
 }
 
 .contact__info{
