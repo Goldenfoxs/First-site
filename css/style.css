@@ -543,6 +543,17 @@ justify-content: space-evenly;
     line-height: 24px;
 }
 
+.Instagram::before{
+    content: "";
+    background-image: url(../images/Instagram.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+}
+
 .Facebook{
     font-size: 20px;
     font-weight: 600;
@@ -550,11 +561,33 @@ justify-content: space-evenly;
     line-height: 24px;
 }
 
+.Facebook::before{
+    content: "";
+    background-image: url(../images/Facebook.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+}
+
 .Telegram{
     font-size: 20px;
     font-weight: 600;
     font-family: "Noto Sans Thai Looped", sans-serif;
     line-height: 24px;
+}
+
+.Telegram::before{
+    content: "";
+    background-image: url(../images/Telegram.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 10px;
+    width: 22px;
+    height: 22px;
 }
 
 .conntact__address{
@@ -603,14 +636,15 @@ justify-content: space-evenly;
     border-radius: 50px;
     font-size: 30px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
-    justify-content: center;
+    justify-content: space-around;
     padding: 14px 7px 7px 7px;
     text-transform: uppercase;
     font-weight: 700;
-    padding-right: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-.button_contact::after{
+/* .button_contact::after{
     content: "";
     background-image: url(../images/Arrow.svg);
     background-repeat: no-repeat;
@@ -619,4 +653,136 @@ justify-content: space-evenly;
     width: 50px;
     height: 50px;
     right: 24%;
+} */
+
+.footer{
+    background-color: #040548;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #040548;    
+}
+
+.footer_bottom_inner{
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.logo_footer{
+    max-width: 250px;
+}
+
+.footer__logo{
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    color: #FFFF;
+    padding-top: 40px;
+}
+.footer__title{
+    margin-left: 5px;
+}
+
+.social_media{
+    max-width: 257px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    font-weight: bold;
+    color: #FFFF; 
+    position: relative;   
+}
+
+.company_info{
+    max-width: 241px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    font-weight: bold;
+    color: #FFFF;    
+}
+
+.contacs{
+    max-width: 264px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Noto Sans Thai Looped", sans-serif ;
+    font-weight: bold;
+    color: #FFFF;    
+}
+
+.footer_social_list-text{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.footer_social_list-item1::before{
+    content: "";
+    background-image: url(../images/Instagram.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;   
+}
+
+.footer_social_list-item2::before{
+    content: "";
+    background-image: url(../images/Facebook.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 22px;
+    height: 22px; 
+    margin-top: 10px;  
+}
+
+.footer_social_list-item3::before{
+    content: "";
+    background-image: url(../images/Telegram.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 22px;
+    height: 22px; 
+    margin-top: 10px;  
+}
+
+.footer_social_list-item4::before{
+    content: "";
+    background-image: url(../images/Viber.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    width: 22px;
+    height: 22px; 
+    margin-top: 10px;  
+}
+
+.footer_menu_list-text{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 700;
+}
+
+.footer_contacts_list-text{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 700;
+    margin-bottom: 4px;    
 }
