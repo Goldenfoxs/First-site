@@ -2,14 +2,15 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 ul{
     list-style: none;
 }
 
 body{
     font-family: "Noto Sans Thai Looped", sans-serif;
-
 }
 
 a{
@@ -847,6 +848,7 @@ justify-content: space-evenly;
     font-size: 25px;
     padding-top: 20px;
     }
+    
 }
 
 @media (max-width: 600px) {
@@ -1053,6 +1055,11 @@ justify-content: space-evenly;
     line-height: 20px;
     }
 
+    .contact__photo{
+        text-align: center;
+        align-items: center;
+        margin-left: 25px;
+    }
 
     .conntact__address__title{
     font-size: 22px;
