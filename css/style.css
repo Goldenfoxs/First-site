@@ -641,11 +641,9 @@ justify-content: space-evenly;
     font-size: 30px;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     justify-content: space-around;
-    padding: 14px 7px 7px 7px;
+    padding: 14px 10px 7px 10px;
     text-transform: uppercase;
     font-weight: 700;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 
 /* .button_contact::after{
@@ -821,6 +819,14 @@ justify-content: space-evenly;
     margin-bottom: 10px;
 }
 
+.contact__info{
+    flex-wrap: wrap;
+}
+
+.contact__img{
+    display: none;
+}
+
 
 
 }
@@ -828,7 +834,19 @@ justify-content: space-evenly;
 @media (max-width: 860px) {
     .header-image {
         display: none;
-    }  
+    } 
+    
+    .button__arrow{
+    width: 35px;
+    height: 35px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+    .button_contact{
+    font-size: 25px;
+    padding-top: 20px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -862,6 +880,11 @@ justify-content: space-evenly;
 
     .menu__btn{
         padding-left: 30px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .translate{
         position: relative;
         z-index: 5;
     }
@@ -952,6 +975,114 @@ justify-content: space-evenly;
     font-size: 15px;
     line-height: 27px;
     }
+
+
+
+    .contact__title{
+    font-size: 25px;
+    line-height: 35px;
+
+    }
+
+    .contact__phone__title{
+    font-size: 22px;
+    }
+
+    .contact__phone{
+        margin-top: 50px;
+    }
+
+    .contact__phone_link{
+    font-size: 20px;
+    line-height: 28px;
+    }
+
+    .contact__email{
+        margin-bottom: 15px;
+    }
+
+    .contact__email__title{
+    font-size: 22px;
+    line-height: 41px;
+    }
+
+    .contact__adress__link{
+    font-size: 15px;
+    }
+
+    .contact__social__title{
+    font-size: 22px;
+    }
+
+    .contact__phone::before{
+    left: 6px;
+    width: 30px;
+    height: 30px;
+    }
+
+
+    .contact__email::before{
+    width: 30px;
+    height: 25px;
+    left: 6px;
+    }
+
+
+    .contact__social::before{
+    left: 6px;
+    width: 30px;
+    height: 30px;
+    }
+
+
+    .Instagram{
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+
+
+    .Facebook{
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+
+    .Telegram{
+    font-size: 15px;
+    line-height: 20px;
+    }
+
+
+    .conntact__address__title{
+    font-size: 22px;
+    line-height: 31px; 
+}
+
+.conntact__address::before{
+    left: 6px;
+    width: 25px;
+    height: 35px;
+}
+
+.contact__social{
+    margin-bottom: 15px;
+}
+
+.contact__adress__text{
+    font-size: 20px;
+}
+
+.contact__photo__text{
+    font-size: 20px;
+}
+
+.button__arrow{
+    width: 30px;
+    height: 30px;
+}
+
+
 }
 
 @media (max-width: 500px) {
@@ -981,6 +1112,30 @@ justify-content: space-evenly;
 
     .about__right{
         align-items: center;
+    }
+
+    .button_contact{
+    font-size: 20px;
+    padding: 20px 10px 0px 10px;
+    }
+
+    .contact__title{
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0.6px;
+    margin-bottom: 15x;
+
+    }
+
+    .contact__adress__text{
+    font-size: 15px;
+    }
+
+    .contact__photo__text{
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        padding: 0 0 0 0;
     }
 }
 
