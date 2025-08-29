@@ -251,7 +251,8 @@ position: relative;
 }
 
 .about__title::after,
-.contact__title::after{
+.contact__title::after,
+.price__title::after{
     content: "";
     height: 3px;
     width: 104px;
@@ -430,6 +431,535 @@ line-height: 17px;
     font-weight: 700;
     text-align: center;
 }
+
+.price{
+    background-color: #040548;
+    height: 679px;
+}
+
+.price__title{
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #FFFF;
+    position: relative;
+    margin-bottom: 106px;
+    padding-top: 26px;
+}
+
+.price__group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kids{
+    background-color: #FFFF;
+    width: 285px;
+    height: 408px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #5FC5A0;
+}
+
+.kids__title{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 41px;
+}
+
+.kids__title::after{
+    content: "";
+    background-image: url(../images/Price/Price_smile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 0;    
+}
+
+.kids__price{
+    color: #FF972D;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+
+.kids__lessons{
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.kids__group{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.kids__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Kids__Games{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 20px; 
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Kids__Games::before{
+    content: "";
+    background-image: url(../images/Price/Price__Games.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+}
+
+.Certified__teacher{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px; 
+    position: relative;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    padding-left: 20px;    
+}
+
+.Certified__teacher::before{
+    content: "";
+    background-image: url(../images/Price/Teacher.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Ofline__speak{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 30px;  
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Ofline__speak::before{
+    content: "";
+    background-image: url(../images/Price/Speaking.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+}
+
+.button-price{
+    background-color: #FF972D;
+    border-radius: 50px;
+    max-width: 214px;
+    max-height: 67px;
+    color: #FFFF;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    position: relative;
+    display: flex;
+    padding-top: 18px;
+    margin-bottom: 46px;
+    margin-left: 10px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.button-price::after{
+    content: "";
+    background-image: url(../images/Arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 39px;
+    height: 39px;
+    right: 15px;
+    bottom: 7px;  
+}
+
+.kids__one{
+    background-color: #FFFF;
+    width: 285px;
+    height: 408px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #5FC5A0;
+    margin-top: 50px;
+}
+
+.kids__One__title{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 41px;    
+}
+
+.kids__One__title::after{
+    content: "";
+    background-image: url(../images/Price/Kids_One.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 0;    
+}
+
+.kids__One__price{
+    color: #FF972D;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+
+.kids__One__lessons{
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.kids__One__group{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.kids__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Kids__Tailored{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 20px; 
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Kids__Tailored::before{
+    content: "";
+    background-image: url(../images/Price/Tailored.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+}
+
+.Price__progress{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px; 
+    position: relative;
+    padding-left: 20px;  
+    font-family: "Noto Sans Thai Looped", sans-serif;  
+}
+
+.Price__progress::before{
+    content: "";
+    background-image: url(../images/Price/Faster.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+}
+
+.Price__Focus{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 30px;  
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Price__Focus::before{
+    content: "";
+    background-image: url(../images/Price/Focus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;    
+}
+
+.adult{
+    background-color: #FFFF;
+    width: 285px;
+    height: 408px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #5FC5A0;    
+}
+
+.Adults__title{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 50px;    
+}
+
+.Adults__title::after{
+    content: "";
+    background-image: url(../images/Price/Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 43px;
+    height: 36px;
+    left: 0;    
+}
+
+.Adult__price{
+    color: #FF972D;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+
+.Adult__lessons{
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.Adult__group{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.Adult__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Adult__topics{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 25px; 
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Adult__topics::before{
+    content: "";
+    background-image: url(../images/Price/Tailored.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 5px; 
+    top: 10px;   
+}
+
+.Adult__support{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px; 
+    position: relative;
+    padding-left: 25px;  
+    font-family: "Noto Sans Thai Looped", sans-serif;  
+}
+
+.Adult__support::before{
+    content: "";
+    background-image: url(../images/Price/Tailored.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 5px;   
+    top: 5px; 
+}
+
+.Adult__one{
+    background-color: #FFFF;
+    width: 285px;
+    height: 408px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #5FC5A0;  
+    margin-top: 50px;  
+}
+
+.Adults__one__title{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 40px;    
+}
+
+.Adults__one__title::after{
+    content: "";
+    background-image: url(../images/Price/Adult-one.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 43px;
+    height: 36px;
+    left: 0;    
+}
+
+.Adults__One__price{
+    color: #FF972D;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+
+.Adults__One__lessons{
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.Adults__one__group{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+}
+
+.Adult__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Adults__Business{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    position: relative;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    padding-left: 25px; 
+}
+
+.Adults__Business::before{
+    content: "";
+    background-image: url(../images/Price/Bussines.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 5px; 
+    top: 10px;   
+}
+
+.Adults__plan{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px; 
+    position: relative;
+    padding-left: 25px;   
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.Adults__plan::before{
+    content: "";
+    background-image: url(../images/Price/Faster.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 5px;   
+    top: 5px; 
+}
+
+.Adults__Native{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px; 
+    position: relative;
+    padding-left: 25px;   
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
 
 .Contact{
     padding: 50px 0 80px;
