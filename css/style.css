@@ -1627,6 +1627,22 @@ justify-content: space-evenly;
     margin-bottom: 20px;
 }
 
+.kids{
+    margin-left: 20px;
+}
+
+.kids__one{
+    margin-left: 20px;
+}
+
+.adult{
+    margin-left: 20px;
+}
+
+.Adult__one{
+    margin-left: 20px;
+}
+
 
 }
 
