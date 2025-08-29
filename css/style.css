@@ -434,7 +434,6 @@ line-height: 17px;
 
 .price{
     background-color: #040548;
-    height: 679px;
 }
 
 .price__title{
@@ -854,6 +853,7 @@ line-height: 17px;
     justify-content: space-between;
     border-color: #5FC5A0;  
     margin-top: 50px;  
+    margin-bottom: 100px;
 }
 
 .Adults__one__title{
@@ -1358,6 +1358,10 @@ justify-content: space-evenly;
     display: none;
 }
 
+.price__group{
+    flex-wrap: wrap;
+}
+
 
 
 }
@@ -1617,6 +1621,10 @@ justify-content: space-evenly;
 .button__arrow{
     width: 30px;
     height: 30px;
+}
+
+.kids__one{
+    margin-bottom: 20px;
 }
 
 
