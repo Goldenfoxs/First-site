@@ -252,7 +252,8 @@ position: relative;
 
 .about__title::after,
 .contact__title::after,
-.price__title::after{
+.price__title::after,
+.school__title::after{
     content: "";
     height: 3px;
     width: 104px;
@@ -460,7 +461,7 @@ line-height: 17px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-color: #5FC5A0;
+    border: 3px solid #5FC5A0;
 }
 
 .kids__title{
@@ -602,10 +603,10 @@ line-height: 17px;
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
-    width: 39px;
-    height: 39px;
-    right: 15px;
-    bottom: 7px;  
+    width: 30px;
+    height: 30px;
+    right: 26px;
+    bottom: 15px;  
 }
 
 .kids__one{
@@ -617,7 +618,7 @@ line-height: 17px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-color: #5FC5A0;
+    border: 3px solid #5FC5A0;
     margin-top: 50px;
 }
 
@@ -745,7 +746,7 @@ line-height: 17px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-color: #5FC5A0;    
+    border: 3px solid #5FC5A0;    
 }
 
 .Adults__title{
@@ -851,7 +852,7 @@ line-height: 17px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-color: #5FC5A0;  
+    border: 3px solid #5FC5A0; 
     margin-top: 50px;  
     margin-bottom: 100px;
 }
@@ -899,6 +900,7 @@ line-height: 17px;
     line-height: 28px;
     font-family: "Noto Sans Thai Looped", sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 .Adult__description{
@@ -959,6 +961,72 @@ line-height: 17px;
     padding-left: 25px;   
     font-family: "Noto Sans Thai Looped", sans-serif;
 }
+
+.school__title{
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family:  "Noto Sans Thai Looped", sans-serif;
+    position: relative;
+    line-height: 60px;
+}
+.slider{
+    width: 650px;
+}
+
+.slider_img{
+    width: 650px;
+    height: 490px;
+}
+
+.slider{
+    margin-left: 300px;
+}
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+    
+}
+
+.slick-dots li button{
+    background-color: transparent;
+    font-size: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .Contact{
