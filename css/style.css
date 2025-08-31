@@ -445,6 +445,7 @@ line-height: 17px;
     position: relative;
     margin-bottom: 106px;
     padding-top: 26px;
+    line-height: 68px;
 }
 
 .price__group{
@@ -1485,6 +1486,13 @@ justify-content: space-evenly;
     max-width: 490px;
 }
 
+.price__title{
+
+    font-size: 35px;
+    margin-bottom: 96px;
+    line-height: 60px;
+}
+
 }
 
 
@@ -1784,7 +1792,7 @@ justify-content: space-evenly;
     }
 
     .contact__title{
-    font-size: 26px;
+    font-size: 30px;
     line-height: 38px;
     letter-spacing: 0.6px;
     margin-bottom: 15x;
@@ -1799,7 +1807,7 @@ justify-content: space-evenly;
         font-size: 18px;
         margin-top: 35px;
         margin-bottom: 20px;
-        padding: 0 0 0 0;
+        padding: 0;
     }
 
         .slider__item{
@@ -1811,6 +1819,26 @@ justify-content: space-evenly;
 }
 .slider{
     max-width: 380px;
+    margin-bottom: 50px;
+}
+
+.price__title{
+    font-size: 30px;
+    margin-bottom: 76px;
+    line-height: 38px;
+    letter-spacing: 1px;
+}
+
+.school__title{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.price__title::after{
+    content: "";
+    height: 3px;
+    width: 84px;
 }
 }
 
