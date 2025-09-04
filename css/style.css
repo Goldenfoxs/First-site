@@ -52,6 +52,7 @@ a{
     top: 0;
     left: 0;
     z-index: 30;
+    opacity: 0.9;
 }
 
 .menu_list{
@@ -1794,6 +1795,9 @@ flex-wrap: wrap;
     line-height: 25px;
     text-transform: uppercase;
 }
+.school__title{
+    margin-bottom: 50px;
+}
 
 }
 
@@ -1872,7 +1876,8 @@ flex-wrap: wrap;
 .school__title{
     font-size: 30px;
     line-height: 38px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .price__title::after{
@@ -1880,6 +1885,16 @@ flex-wrap: wrap;
     height: 3px;
     width: 84px;
 }
+
+.price__title{
+    padding-top: 60px;
+}
+
+.contact__title{
+    padding-top: 60px;
+}
+
+
 }
 
 
