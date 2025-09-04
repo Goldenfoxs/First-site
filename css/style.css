@@ -193,6 +193,19 @@ position: relative;
     font-weight: 700;
 }            
 
+.button_ua{
+    display: flex;
+    width: 291px;
+    height: 66px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family:  "Noto Sans Thai Looped", sans-serif;
+    justify-content: center;
+    padding: 15px 7px 7px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+}  
+
  .button-orange{
     background-color: #FF972D;
 }
@@ -212,6 +225,20 @@ position: relative;
     font-family:  "Noto Sans Thai Looped", sans-serif;
     padding: 7px 7px 7px 7px; */
 }
+
+ .button_green_ua{ 
+    color: white;
+    background-color: #5FC5A0;
+    margin-bottom: 40px;
+    position: relative;
+    /* width: 291px;
+    height: 66px; */
+    /* border-radius: 50px;
+    font-size: 32px;
+    font-family:  "Noto Sans Thai Looped", sans-serif;
+    padding: 7px 7px 7px 7px; */
+}
+
 
  .button_green::after{
     content: "";
@@ -588,6 +615,23 @@ line-height: 17px;
 }
 
 .button-price{
+    background-color: #FF972D;
+    border-radius: 50px;
+    max-width: 214px;
+    max-height: 67px;
+    color: #FFFF;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    position: relative;
+    display: flex;
+    padding-top: 18px;
+    margin-bottom: 46px;
+    margin-left: 10px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+.button-price_ua{
     background-color: #FF972D;
     border-radius: 50px;
     max-width: 214px;
@@ -1896,6 +1940,8 @@ flex-wrap: wrap;
 
 
 }
+
+
 
 
 /* adaptive about */
